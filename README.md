@@ -1,7 +1,7 @@
 
 
 Herkese Merhaba
- Bn Aynur, Github'ı kendimi geliştirmek ve benim gibi bu alanda çalışmalar yapan arkadaşlara yardımcı olmak için açtım. Yapay zeka teknolojileri üzerine çalışmalar yapıyorum.  👩🏻‍💻   
+ Ben Aynur, Github'ı kendimi geliştirmek ve benim gibi bu alanda çalışmalar yapan arkadaşlara yardımcı olmak için açtım. Yapay zeka teknolojileri üzerine çalışmalar yapıyorum.  👩🏻‍💻   
      
      
      
