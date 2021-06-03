@@ -5,6 +5,6 @@ Herkese Merhaba
      
      
      
-   Yolculuğumun bir parçası olmak ister misin? Tekneye bin. 🌼
+  Yolculuğumun bir parçası olmak ister misin? Tekneye bin. 🌼
 
 
