@@ -1,4 +1,4 @@
-<h2 align="center">MerhabaL Ben Aynur  </h2>
+<h2 align="center">Merhaba Ben Aynur  </h2>
 
 - 🔭 Şuan da **Görüntü İşleme** üzerinde çalışıyorum.
 
