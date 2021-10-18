@@ -2,7 +2,7 @@
 
 - 🔭 Şuan da **Görüntü İşleme** üzerinde çalışıyorum.
 
-- 🌱 Şuan da **Opencv, Keras ** teknolojilerini öğreniyorum.
+- 🌱 Şuan da **Opencv, Keras ve PyTorch ** teknolojilerini öğreniyorum.
 
 - 📫 Mail üzerinden bana ulaşabilirsiniz. **aynur.susuz.5561@hotmail.com**<br>
 
