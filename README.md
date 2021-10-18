@@ -15,26 +15,3 @@
 <code><a href="" target="_blank"><img height="50" src="https://www.vectorlogo.zone/logos/opencv/opencv-ar21.svg"></a></code>
 <code><a href="" target="_blank"><img height="50" src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg"></a></code>
 
-## Projelerim
-<table bordercolor="#66b2b2">
-  <tr>
-    <td width="33%" valign="top">
-      <h3>İnsansız Hava Aracı için Hedef Tespit Sistemi</h3>
-        <br />
-        <a target="_blank" href="https://github.com/aynursusuz/HAREKETLI-NESNE-TAKIBI">
-            <img src="images/uav.webp" width="100%" alt="https://github.com/aynursusuz/HAREKETLI-NESNE-TAKIBI"/>
-        </a>
-        
-        <p><a target="_blank" href="https://github.com/aynursusuz/HAREKETLI-NESNE-TAKIBI">Repo</a> </p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Basit Şekil Takibi(Basiy)</h3>
-        <br />
-        <a target="_blank" href="https://github.com/aynursusuz/simple-shape-detection">
-            <img src="images/shape.gif" width="100%" alt="https://github.com/aynursusuz/simple-shape-detection"/>
-        </a>
-        <p><strong>ROS & Python </strong> -İnsansız hava araçları için rota planlama ve analiz/tahmin algoritmaları kullanarak otonom rota planlama algoritmaları geliştirilmektedir.</p>  
-        <p><a target="_blank" href="https://github.com/aynursusuz/simple-shape-detection">Repo</a> </p>
-    </td>
-  </tr>
-</table>
