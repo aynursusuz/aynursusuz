@@ -4,7 +4,7 @@
 
 - 👩‍💻 **Opencv, Keras ve PyTorch ** teknolojilerini öğreniyorum.
 
-- 📫 Mail üzerinden bana ulaşabilirsiniz. **aynur.susuz.5561@hotmail.com**<br>
+- 📫 Mail üzerinden bana ulaşabilirsiniz. **aynur.susuz.5561@gmail.com**<br>
 
 - ⛵️ Yolcuğumun bir parçası olmak ister misin ? Tekneye bin. 
 
