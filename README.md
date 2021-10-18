@@ -2,9 +2,7 @@
 
 - 🔭 Şuan da **Görüntü İşleme** üzerinde çalışıyorum.
 
-- 🌱 Şuan da **Opencv, Keras ve FastAPI** teknolojilerini öğreniyorum.
-
-- 📝 Yakında bilgisayar görü ve otopilot yazılımlarımı medium üzerinden paylaşacağım. [Medium](https://medium.com/@aynur.susuz.5561)
+- 🌱 Şuan da **Opencv, Keras ** teknolojilerini öğreniyorum.
 
 - 📫 Mail üzerinden bana ulaşabilirsiniz. **aynur.susuz.5561@hotmail.com**<br>
 
@@ -26,7 +24,7 @@
         <a target="_blank" href="https://github.com/aynursusuz/HAREKETLI-NESNE-TAKIBI">
             <img src="images/uav.webp" width="100%" alt="https://github.com/aynursusuz/HAREKETLI-NESNE-TAKIBI"/>
         </a>
-        <p><strong>Örnek Açıklama Cümlesi:Yolov4 + TensorRT</strong> - Yapay zeka teknolojilerini kullanarak Savaşan İnsansız Hava Araclar için  hedef tespit takip ve hedefe kitlenme gibi algoritmaların geliştirilmesi hedeflenmektedir.</p>
+        
         <p><a target="_blank" href="https://github.com/aynursusuz/HAREKETLI-NESNE-TAKIBI">Repo</a> </p>
     </td>
     <td width="33%" valign="top">
