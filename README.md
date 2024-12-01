@@ -2,7 +2,7 @@
 
 - 🔭 Şuan da **Generative AI** üzerinde çalışıyorum.
 
-- 👩‍💻 **PyTorch , LLM , RAG ,Langchain ve Unsloth ** teknolojilerini öğreniyorum.
+- 👩‍💻 **PyTorch , LLM , RAG ,Langchain ve Unsloth** teknolojilerini öğreniyorum.
 
 - 📫 Mail üzerinden bana ulaşabilirsiniz. **aynur.susuz.5561@gmail.com**<br>
 
