@@ -1,11 +1,9 @@
-<!-- Header Banner -->
-<p align="center">
+<!-- Animated Header Banner -->
+<div align="center">
   <img src="assets/header.svg" alt="Aynur Susuz - AI Engineer" width="900"/>
-</p>
+</div>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=9b59b6,e91e8c&height=80&section=header" width="100%"/>
-</p>
+<br/>
 
 <!-- About Me -->
 <h2 align="center">🧠 About Me</h2>
@@ -15,6 +13,10 @@
   I specialize in fine-tuning large language models and building production-grade TTS systems.<br/>
   Focused on pushing open-source models to their limits with LoRA, QLoRA, and Unsloth.
 </p>
+
+<div align="center">
+  <img src="assets/status_bar.svg" alt="Status" width="500"/>
+</div>
 
 <br/>
 
@@ -33,7 +35,11 @@
 <br/>
 
 <!-- Currently Working On -->
-<h2 align="center">🔬 Currently Working On</h2>
+<div align="center">
+  <img src="assets/section_working_on.svg" alt="Current Projects" width="520"/>
+</div>
+
+<br/>
 
 <p align="center">
   <b>·</b>&ensp;LLM fine-tuning with LoRA / QLoRA / Unsloth for domain-specific tasks<br/>
@@ -62,6 +68,13 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=aynursusuz&theme=tokyonight&border=9b59b6&background=1a0533&ring=e91e8c&fire=e91e8c&currStreakLabel=e91e8c&sideLabels=9b59b6&currStreakNum=c4a1d4&sideNums=c4a1d4&dates=c4a1d4" alt="GitHub Streak" width="500"/>
 </p>
+
+<br/>
+
+<!-- Contact Terminal -->
+<div align="center">
+  <img src="assets/terminal_contact.svg" alt="Contact" width="520"/>
+</div>
 
 <br/>
 

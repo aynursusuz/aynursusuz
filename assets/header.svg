@@ -1,68 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+<svg width="900" height="260" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background gradient -->
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d0117"/>
-      <stop offset="50%" style="stop-color:#1a0533"/>
-      <stop offset="100%" style="stop-color:#120228"/>
-    </linearGradient>
-
-    <!-- Accent gradient -->
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#9b59b6"/>
-      <stop offset="100%" style="stop-color:#e91e8c"/>
-    </linearGradient>
-
-    <!-- Glow filter -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
       <feMerge>
-        <feMergeNode in="blur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#9b59b6" stroke-width="0.5" opacity="0.12"/>
+    </pattern>
+
+    <linearGradient id="purplePink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9b59b6;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#e91e8c;stop-opacity:1"/>
+    </linearGradient>
   </defs>
 
-  <!-- Background -->
-  <rect width="900" height="200" fill="url(#bg)"/>
+  <!-- Dark background -->
+  <rect width="900" height="260" fill="#0d0117"/>
 
-  <!-- Subtle grid pattern -->
-  <g opacity="0.06" stroke="#9b59b6" stroke-width="0.5">
-    <line x1="0" y1="40" x2="900" y2="40"/>
-    <line x1="0" y1="80" x2="900" y2="80"/>
-    <line x1="0" y1="120" x2="900" y2="120"/>
-    <line x1="0" y1="160" x2="900" y2="160"/>
-    <line x1="150" y1="0" x2="150" y2="200"/>
-    <line x1="300" y1="0" x2="300" y2="200"/>
-    <line x1="450" y1="0" x2="450" y2="200"/>
-    <line x1="600" y1="0" x2="600" y2="200"/>
-    <line x1="750" y1="0" x2="750" y2="200"/>
-  </g>
+  <!-- Grid -->
+  <rect width="900" height="260" fill="url(#grid)"/>
 
-  <!-- Decorative accent lines -->
-  <line x1="80" y1="170" x2="380" y2="170" stroke="url(#accent)" stroke-width="1.5" opacity="0.4"/>
-  <line x1="520" y1="170" x2="820" y2="170" stroke="url(#accent)" stroke-width="1.5" opacity="0.4"/>
+  <!-- Scanning line -->
+  <rect width="900" height="2" fill="#9b59b6" opacity="0.25">
+    <animate attributeName="y" from="-2" to="260" dur="4s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- Corner accents -->
-  <polyline points="20,40 20,20 40,20" fill="none" stroke="#9b59b6" stroke-width="1.5" opacity="0.3"/>
-  <polyline points="860,20 880,20 880,40" fill="none" stroke="#e91e8c" stroke-width="1.5" opacity="0.3"/>
-  <polyline points="20,160 20,180 40,180" fill="none" stroke="#9b59b6" stroke-width="1.5" opacity="0.3"/>
-  <polyline points="860,180 880,180 880,160" fill="none" stroke="#e91e8c" stroke-width="1.5" opacity="0.3"/>
+  <!-- Glitch: pink channel offset -->
+  <text x="452" y="110" font-family="'Segoe UI', 'Arial', sans-serif" font-size="62" font-weight="800" fill="#e91e8c" opacity="0.5" text-anchor="middle">
+    Aynur Susuz
+    <animate attributeName="x" values="452;455;452;454;452" dur="0.3s" repeatCount="indefinite"/>
+  </text>
 
-  <!-- Glowing orbs -->
-  <circle cx="120" cy="100" r="60" fill="#9b59b6" opacity="0.04"/>
-  <circle cx="780" cy="100" r="60" fill="#e91e8c" opacity="0.04"/>
+  <!-- Glitch: purple channel offset -->
+  <text x="448" y="110" font-family="'Segoe UI', 'Arial', sans-serif" font-size="62" font-weight="800" fill="#9b59b6" opacity="0.5" text-anchor="middle">
+    Aynur Susuz
+    <animate attributeName="x" values="448;445;448;446;448" dur="0.3s" repeatCount="indefinite"/>
+  </text>
 
-  <!-- Name -->
-  <text x="450" y="90" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700" fill="url(#accent)" filter="url(#glow)">
+  <!-- Main name -->
+  <text x="450" y="110" font-family="'Segoe UI', 'Arial', sans-serif" font-size="62" font-weight="800" fill="#ffffff" filter="url(#neonGlow)" text-anchor="middle">
     Aynur Susuz
   </text>
 
+  <!-- Glitch bars -->
+  <rect x="250" y="88" width="140" height="2.5" fill="#9b59b6" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.7;0;0;0;0;0;0.5;0" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="530" y="105" width="110" height="2" fill="#e91e8c" opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0.6;0;0;0;0;0" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
   <!-- Subtitle -->
-  <text x="450" y="130" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#c4a1d4" letter-spacing="3">
-    AI Engineer · LLM Fine-Tuning · TTS
+  <text x="450" y="155" font-family="'Courier New', monospace" font-size="16" font-weight="400" fill="#c4a1d4" text-anchor="middle" letter-spacing="2" opacity="0.9">
+    &lt; AI ENGINEER · LLM FINE-TUNING · TTS /&gt;
   </text>
 
-  <!-- Thin accent line under subtitle -->
-  <rect x="340" y="142" width="220" height="1.5" rx="1" fill="url(#accent)" opacity="0.5"/>
+  <!-- Animated accent line -->
+  <line x1="280" y1="178" x2="620" y2="178" stroke="url(#purplePink)" stroke-width="2" filter="url(#neonGlow)">
+    <animate attributeName="stroke-dasharray" values="0,340;340,0" dur="2.5s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Status box -->
+  <g transform="translate(365, 198)">
+    <rect width="170" height="32" fill="#0d0117" stroke="#9b59b6" stroke-width="1.5" rx="4"/>
+    <circle cx="20" cy="16" r="5" fill="#e91e8c">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="88" y="21" font-family="'Courier New', monospace" font-size="13" font-weight="700" fill="#c4a1d4" text-anchor="middle">
+      AVAILABLE
+    </text>
+  </g>
+
+  <!-- Corner brackets -->
+  <polyline points="20,40 20,15 45,15" fill="none" stroke="#9b59b6" stroke-width="1.5" opacity="0.4"/>
+  <polyline points="855,15 880,15 880,40" fill="none" stroke="#e91e8c" stroke-width="1.5" opacity="0.4"/>
+  <polyline points="20,220 20,245 45,245" fill="none" stroke="#9b59b6" stroke-width="1.5" opacity="0.4"/>
+  <polyline points="855,245 880,245 880,220" fill="none" stroke="#e91e8c" stroke-width="1.5" opacity="0.4"/>
 </svg>

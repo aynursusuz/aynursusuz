@@ -1,0 +1,11 @@
+<svg width="500" height="30" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="30" fill="#0d0117" stroke="#9b59b6" stroke-width="1" rx="3"/>
+
+  <circle cx="18" cy="15" r="5" fill="#e91e8c">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="35" y="20" font-family="'Courier New', monospace" font-size="12" fill="#c4a1d4" letter-spacing="1">
+    ONLINE :: OPEN TO COLLABORATION
+  </text>
+</svg>
