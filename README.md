@@ -1,9 +1,11 @@
-<!-- Animated Header Banner -->
-<div align="center">
+<!-- Header Banner -->
+<p align="center">
   <img src="assets/header.svg" alt="Aynur Susuz - AI Engineer" width="900"/>
-</div>
+</p>
 
-<br/>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=9b59b6,e91e8c&height=80&section=header" width="100%"/>
+</p>
 
 <!-- About Me -->
 <h2 align="center">🧠 About Me</h2>
@@ -13,10 +15,6 @@
   I specialize in fine-tuning large language models and building production-grade TTS systems.<br/>
   Focused on pushing open-source models to their limits with LoRA, QLoRA, and Unsloth.
 </p>
-
-<div align="center">
-  <img src="assets/status_bar.svg" alt="Status" width="500"/>
-</div>
 
 <br/>
 
@@ -35,11 +33,7 @@
 <br/>
 
 <!-- Currently Working On -->
-<div align="center">
-  <img src="assets/section_working_on.svg" alt="Current Projects" width="520"/>
-</div>
-
-<br/>
+<h2 align="center">🔬 Currently Working On</h2>
 
 <p align="center">
   <b>·</b>&ensp;LLM fine-tuning with LoRA / QLoRA / Unsloth for domain-specific tasks<br/>
@@ -71,20 +65,13 @@
 
 <br/>
 
-<!-- Contact Terminal -->
-<div align="center">
-  <img src="assets/terminal_contact.svg" alt="Contact" width="520"/>
-</div>
-
-<br/>
-
 <!-- Footer -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/aynur-susuz/">
+  <a href="https://www.linkedin.com/in/aynursusuz">
     <img src="https://img.shields.io/badge/LinkedIn-1a0533?style=for-the-badge&logo=linkedin&logoColor=9b59b6" alt="LinkedIn"/>
   </a>
   &nbsp;
-  <a href="mailto:aynur.susuz.5561@gmail.com">
+  <a href="mailto:aynursusuz@gmail.com">
     <img src="https://img.shields.io/badge/Email-1a0533?style=for-the-badge&logo=gmail&logoColor=e91e8c" alt="Email"/>
   </a>
 </p>
