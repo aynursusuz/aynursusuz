@@ -19,8 +19,10 @@ I'm an **AI Engineer at Vyvo Labs** with **one year of hands-on experience in te
 | Project | Engineering focus |
 | :--- | :--- |
 | **[UNITTS ↗](https://github.com/aynursusuz/UNITTS)** | One Python interface for open-source TTS engines, voice cloning integrations, and inference benchmarks. |
-| **[Audio Quality Pipeline ↗](https://github.com/aynursusuz/audio-quality-pipeline)** | Speech dataset filtering, duplicate detection, auditable decisions, and optional model-based quality metrics. |
-| **[TTS Dataset Pipeline ↗](https://github.com/aynursusuz/tts-text-pipeline)** | Text generation, voice design, speech synthesis, and Hugging Face publishing in one workflow. |
+| **[micrograd ↗](https://github.com/aynursusuz/micrograd)** | A scalar-valued autograd engine and neural network library, built while following Andrej Karpathy's course. |
+| **[build-nanogpt ↗](https://github.com/aynursusuz/build-nanogpt)** | GPT language model training from scratch, following Andrej Karpathy's nanoGPT tutorial. |
+
+**More speech AI work:** [Audio Quality Pipeline](https://github.com/aynursusuz/audio-quality-pipeline) for speech dataset filtering and evaluation, and [TTS Dataset Pipeline](https://github.com/aynursusuz/tts-text-pipeline) for text generation, voice design, speech synthesis, and publishing.
 
 ## Models & datasets
 
@@ -41,8 +43,6 @@ I'm an **AI Engineer at Vyvo Labs** with **one year of hands-on experience in te
 
 **[Try Audio Quality Assessment ↗](https://huggingface.co/spaces/Aynursusuz/Audio-Quality-Assessment)** — An interactive demo for inspecting loudness, clipping, silence, waveforms, and spectrograms.
 
-## Tools & foundations
+## Tools
 
 `Python` · `PyTorch` · `Transformers` · `Hugging Face Datasets` · `CUDA` · `Gradio` · `librosa`
-
-I also study model internals through [GPT-2 training](https://github.com/aynursusuz/build-nanogpt) and [neural networks from scratch](https://github.com/aynursusuz/micrograd), following Andrej Karpathy's courses.
