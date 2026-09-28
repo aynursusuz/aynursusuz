@@ -12,7 +12,7 @@
 
 **AI Engineer at Vyvo Labs** · One year building text-to-speech systems.
 
-**[Hugging Face](https://huggingface.co/Aynursusuz)** &nbsp; / &nbsp; **[LinkedIn](https://www.linkedin.com/in/aynur-susuz/)** &nbsp; / &nbsp; **[Email](mailto:aynursusuz@gmail.com)**
+**[Hugging Face](https://huggingface.co/Aynursusuz)** &nbsp; / &nbsp; **[LinkedIn](https://www.linkedin.com/in/aynur-susuz/)** &nbsp; / &nbsp; **[Email](mailto:aynur.susuz.5561@gmail.com)**
 
 ## Synthetic speech
 
