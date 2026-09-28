@@ -16,32 +16,34 @@
 
 ## Synthetic speech
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>~4M English clips</h3>
-      <strong><a href="https://huggingface.co/datasets/SynDataLab-EN/qwen-clones-4m-en">Qwen3-TTS voice clones ↗</a></strong>
-      <p>Conversational speech synthesis.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>~3.98M English clips</h3>
-      <strong><a href="https://huggingface.co/datasets/SynDataLab-EN/echo-clones-4m-en">EchoTTS voice clones ↗</a></strong>
-      <p>4,000 reference speakers.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>3.29M Japanese clips</h3>
-      <strong><a href="https://huggingface.co/datasets/SynDataLab-JA/irodori-clones-3m-v2-no-emoji">Irodori TTS v2 ↗</a></strong>
-      <p>10,000 reference voices.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>~2.97M scored speech clips</h3>
-      <strong><a href="https://huggingface.co/datasets/SynDataLab-EN/tts-pretrain-clones-3m-mos">English speech with DNSMOS ↗</a></strong>
-      <p>Per-utterance audio-quality estimates.</p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://huggingface.co/datasets/SynDataLab-EN/qwen-clones-4m-en">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/dataset-qwen-dark.svg">
+      <img src="./assets/dataset-qwen-light.svg" width="318" alt="~4M English speech clips — Qwen3-TTS voice clones. Conversational speech synthesis.">
+    </picture>
+  </a>
+  <a href="https://huggingface.co/datasets/SynDataLab-EN/echo-clones-4m-en">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/dataset-echo-dark.svg">
+      <img src="./assets/dataset-echo-light.svg" width="318" alt="~3.98M English speech clips — EchoTTS voice clones. 4,000 reference speakers.">
+    </picture>
+  </a>
+</p>
+<p align="center">
+  <a href="https://huggingface.co/datasets/SynDataLab-JA/irodori-clones-3m-v2-no-emoji">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/dataset-irodori-dark.svg">
+      <img src="./assets/dataset-irodori-light.svg" width="318" alt="3.29M Japanese speech clips — Irodori TTS v2. 10,000 reference voices.">
+    </picture>
+  </a>
+  <a href="https://huggingface.co/datasets/SynDataLab-EN/tts-pretrain-clones-3m-mos">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/dataset-dnsmos-dark.svg">
+      <img src="./assets/dataset-dnsmos-light.svg" width="318" alt="~2.97M English speech clips with DNSMOS per-utterance quality estimates.">
+    </picture>
+  </a>
+</p>
 
 **Also published:** [Irodori Japanese voice clones — 2.99M clips ↗](https://huggingface.co/datasets/SynDataLab-JA/irodori-clones-3m)
 
